@@ -1,0 +1,30 @@
+*{
+    background-color: darkslategray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.color-box {
+    background-color: whitesmoke;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    border: solid rgb(236, 172, 8);
+    border-radius: 8px;
+}
+
+.botao{
+    padding: 5px;
+    background-color: rgb(233, 170, 13);
+    color: whitesmoke;
+    border: solid;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 10px;
+}
